@@ -1,0 +1,57 @@
+@charset "UTF-8"
+/*
+Author: Alex Boyd
+Date 02/15/2023
+Description: Layout for the resume page
+*/
+
+img{
+    padding-top: 2em;
+    
+}
+nav{
+padding-bottom: 2em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.item1 > h4{
+    word-spacing: 2em;
+}
+.item1{
+    grid-area: title;
+}
+.item2{
+    grid-area: contact;
+}
+.item3{
+    grid-area: skills;
+}
+.item4{
+    grid-area: education;
+}
+.item5{
+    grid-area: languages;
+}
+.item6{
+    grid-area: profile;
+}
+.item7{
+    grid-area: experience;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'title title title'
+      'contact profile profile'
+      'skills profile profile'
+      'education experience experience'
+      'education experience experience'
+      'languages experience experience';
+    gap: 10px;
+    background-color: rgb(30, 30, 29);
+    padding: 10px;
+  }
