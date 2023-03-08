@@ -5,6 +5,30 @@ Date 02/15/2023
 Description: Layout for the resume page
 */
 
+@media only screen and (max-width: 768px) { /* mobile phone */
+    .grid-container {
+        background-color: lightblue;
+    }
+}
+
+
+@media only screen and (min-width: 768px) { /* non-mobile device */
+    .reHeading {grid-area: reHeading;}
+    .reHeading h4{
+        font-weight: normal;
+    }
+    nav ul>li{
+        float: left;
+    }
+    nav ul{
+         justify-content: center;
+         overflow: hidden;
+    }
+    nav ul>li>a{
+        display: block;
+    }
+}
+
 img{
     padding-top: 2em;
     
