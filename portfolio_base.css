@@ -24,6 +24,7 @@ nav{
     font-style: normal;
     text-align: center;
     font-weight: bold;
+    padding-top: 2em;
 }
 
 nav a:visited{
@@ -35,4 +36,23 @@ nav a:hover{
 nav a{
     color: rgb(225, 225, 225);
     padding: 2em;
+}
+p{
+    text-align: center;
+    padding-top: 3em;
+}
+img{
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+div.container {
+    text-align: center;
+}
+ul.myUL {
+    display: inline-block;
+    text-align: left;
 }
