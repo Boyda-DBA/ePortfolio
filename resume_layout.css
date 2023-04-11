@@ -7,8 +7,40 @@ Description: Layout for the resume page
 
 @media only screen and (max-width: 768px) { /* mobile phone */
     body {
-        background-color: lightblue;
+        background-color: rgb(80, 99, 105);
+        
     }
+    .Container {
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+    ul.skills li {
+        text-align: center;
+    }
+    hr {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: auto auto;
+        margin-bottom: 20px;
+        height: 0;
+        width: 25%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 1px solid #aaaaaa;
+        border-bottom: 1px solid #ffffff;
+     }
+     .left-column{
+        text-align: center;
+        align-items: center;
+     }
+     .Container ul{
+        list-style: none;
+     }
 }
 
 @media only screen and (min-width: 769px) { /* non-mobile device */
@@ -20,18 +52,22 @@ Description: Layout for the resume page
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        text-align: center;
     }
 
     .left-column {
         flex: 1;
-        margin-right: 0.5em;
-        margin-left: 1em;
+        margin-right: 1em;
+        margin-left: 22%;
     }
 
     .right-column {
         flex: 2;
-        margin-left: 0.5em;
-        margin-right: 1em;
+        margin-left: 1em;
+        margin-right: 15em;
+    }
+    .left-column hr{
+        width: 35%;
     }
 
     h1, h2, h3 {
@@ -62,8 +98,25 @@ Description: Layout for the resume page
         padding: 5px;
         border: 1px solid #ccc;
         border-radius: 5px;
+        text-align: center;
     }
     ul.Experience li{
         text-align: center;
     }
+    hr {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: auto auto;
+        margin-bottom: 20px;
+        height: 0;
+        width: 25%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 1px solid #aaaaaa;
+        border-bottom: 1px solid #ffffff;
+     }
 }
